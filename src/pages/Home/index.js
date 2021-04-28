@@ -1,5 +1,6 @@
 import React from "react";
 import headshot from "../../images/headshot-from-cocktail-shot.png";
+import "./home.css";
 
 const Home = () => {
   return (

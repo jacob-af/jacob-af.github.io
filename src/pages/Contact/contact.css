@@ -1,0 +1,15 @@
+
+#contact {
+    float: right;
+    margin-right: 150px
+}
+
+.contact a {
+    color: #8a2000;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+.contact span {
+    font-family: "Special Elite", "Helvetica";
+}
