@@ -1,0 +1,16 @@
+.project-image {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #2D3439;
+    border-radius: 10px;
+}
+
+@media (max-width: 860px) {
+
+    .project-image {
+        object-fit: cover;
+        width: 100%;
+    }
+    
+}
