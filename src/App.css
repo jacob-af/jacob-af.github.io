@@ -28,13 +28,13 @@ p {
     font-family: 'JetBrains Mono';
 }
 
-.nav-link, .name-link {
+a {
     color: #ff6333;
     font-family: "Special Elite", "Helvetica";
     font-size: 18px;
 }
 
-.nav-link:hover {
+a:hover {
     color: #FFFFFF;
 }
 
@@ -47,9 +47,6 @@ p {
 
 .fa {
     font-size: 20px;
-    color: #FF6333;
-    letter-spacing: 5px;
-
 }
 
 .navbar-toggler {
@@ -86,7 +83,7 @@ p {
 }
 
 .portfolio {
-    background-color: #AAC0D5;
+    background-color: #AAC0D5; 
     max-width: 1200px;
     border: 3px solid #2D3439;
     border-radius: 20px;
@@ -134,16 +131,14 @@ p {
     .bio {
         padding: 15px;
     }
-    .d-block {
-        object-fit: cover;
-        width: 100%;
+    #profile {
+        margin-left: 0;
     }
     .arrow {
         position: absolute;
         bottom: 40px;
     }
     #contact {
-        font-size: 10px;
         float: clear;
         margin-right: 0;
     }
