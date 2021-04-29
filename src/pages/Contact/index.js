@@ -59,13 +59,13 @@ const Contact = () => {
           </Link>
         </div>
         <div>
-          <Link
-            to="./assets/JacobFeitlersResume012021.pdf"
+          <a
+            href={process.env.PUBLIC_URL + "./JacobFeitlersResume012021.pdf"}
             className="fa fa-file"
-            rel="noreferrer"
+            download="JacobFeitlersResume012021.pdf"
           >
             <span>: Download PDF Resume</span>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
