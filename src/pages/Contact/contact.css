@@ -13,3 +13,10 @@
 .contact span {
     font-family: "Special Elite", "Helvetica";
 }
+
+@media (max-width: 630px) {
+    #contact {
+        float: clear;
+        margin-right: 0;
+    }
+}
