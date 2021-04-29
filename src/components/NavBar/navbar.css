@@ -1,0 +1,6 @@
+.navbar-brand {
+    color: #FF6333;
+    animation: pulse 4s linear;
+    font-size: 28px;
+    font-family: "Special Elite", "Helvetica";
+}
