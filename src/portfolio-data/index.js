@@ -1,11 +1,20 @@
 import puppyParty from "../images/puppy-party.png";
 import vaxTrax from "../images/vax-trax-landing.png";
+import petPandemonium from "../images/pet-pandemonium.png";
 import quizTime from "../images/quiz-time.png";
 import weatherTravel from "../images/weather-travel.png";
 import budgetTracker from "../images/budget-tracker.png";
 import employeeDirectory from "../images/employee-directory.png";
 
 const portfolioData = [
+  {
+    name: "Pet Pandemonium",
+    description:
+      "MERN stack multiplayer Battleship style game using functional components, hooks, Socket.io, and Howler.js deployed to Heroku",
+    image: petPandemonium,
+    githubLink: "https://github.com/jacob-af/pet-pandemonium",
+    deployedLink: "https://pet-pandemonium.herokuapp.com/"
+  },
   {
     name: "Vax Trax",
     description:
