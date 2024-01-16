@@ -13,7 +13,7 @@ const Portfolio = () => {
       id="portfolio"
     >
       <div className="col portfolio">
-        <h1>Recent Projects</h1>
+        <h1>Projects</h1>
         <div>
           <div>
             <Project project={portfolioData[currentProject]} />
