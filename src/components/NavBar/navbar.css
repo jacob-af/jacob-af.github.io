@@ -1,6 +1,13 @@
 .navbar-brand {
-    color: #FF6333;
-    animation: pulse 4s linear;
-    font-size: 28px;
-    font-family: "Special Elite", "Helvetica";
+  color: #ff6333;
+  animation: pulse 4s linear;
+  font-size: 28px;
+  font-family: "Special Elite", "Helvetica";
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }

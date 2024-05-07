@@ -1,16 +1,18 @@
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
+
+import { Route, BrowserRouter as Router } from "react-router-dom";
+
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import NavBar from "./components/NavBar";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
 
 function App() {
   return (
     <Router>
       <NavBar />
-      <div className="container-fluid pt-5">
+      <div className="container pt-5">
         <Route exact path="/" component={Home} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />

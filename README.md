@@ -28,7 +28,7 @@ Site is deployed at: [www.jacobaf.com](http://www.jacobaf.com/)
   - JacobFeitlersResume012021.pdf
   - (images)
     - headshot-from-cocktail-shot.png
-    - main-image,jpg
+    - main-image.jpg
     - puppy-party.png
     - quiz-time.png
     - weather-travel.png

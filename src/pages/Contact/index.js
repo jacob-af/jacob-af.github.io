@@ -1,6 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import "./contact.css";
+
+import { Link } from "react-router-dom";
+import React from "react";
 
 const Contact = () => {
   return (
@@ -60,9 +61,9 @@ const Contact = () => {
         </div>
         <div>
           <a
-            href={process.env.PUBLIC_URL + "./JacobFeitlersResume012021.pdf"}
+            href={process.env.PUBLIC_URL + "./JacobFeitlerResume0524.pdf"}
             className="fa fa-file"
-            download="JacobFeitlersResume012021.pdf"
+            download="JacobFeitlerResume0524"
           >
             <span>: Download PDF Resume</span>
           </a>

@@ -1,10 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import "./project.css";
+
+import { Link } from "react-router-dom";
+import React from "react";
 
 const Project = ({ project }) => {
   return (
-    <div>
+    <div className="project-window">
       <img
         className="project-image img-fluid"
         src={project.image}
