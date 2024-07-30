@@ -61,9 +61,9 @@ const Contact = () => {
         </div>
         <div>
           <a
-            href={process.env.PUBLIC_URL + "./JacobFeitlerResume0524.pdf"}
+            href={process.env.PUBLIC_URL + "./JacobFeitlerResume.pdf"}
             className="fa fa-file"
-            download="JacobFeitlerResume0524"
+            download="JacobFeitlerResume"
           >
             <span>: Download PDF Resume</span>
           </a>
